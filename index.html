@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos/styles.css">
+  <link rel="stylesheet" href="estilos/normalize.css">
+  <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+  <link rel="icon" href="./imagenes/hombre.svg">
+  <title>Brian Tomas Flores</title>
+</head>
+
+<body>
+  <div class="main-container">
+    <section class="navbar-container__desktop">
+      <h1>Brian Tomas Flores</h1>
+      <nav class="navbar-container__desktop__list">
+        <a href="index.html"><i class="fas fa-home"></i>Inicio</a>
+        <a href="#skils"><i class="fas fa-user-alt"></i>Sobre mi</a>
+        <a href="#services"><i class="fas fa-briefcase"></i>Servicios</a>
+        <a href="#experience"><i class="fas fa-graduation-cap"></i>Experiencia</a>
+        <a href="#works"><i class="fas fa-layer-group"></i>Mis proyectos</a>
+        <a href="#contactme"><i class="fas fa-comments"></i>Contactame</a>
+      </nav>
+    </section>
+    <div class="full-container">
+      <section class="navbar-container__mobile">
+        <nav class="navbar-container__mobile__list">
+          <label for="navbar" class="navbar-container__mobile__list__label">
+            <input type="checkbox" id="navbar" class="navbar-input" />
+            <div class="navbar-open">
+              <i class="fas fa-bars"></i>
+            </div>
+            <div class="navbar-close">
+              <i class="fas fa-times"></i>
+            </div>
+            <div class="navbar-contet">
+              <a href="index.html"><i class="fas fa-home"></i>Inicio</a>
+              <a href="#skils"><i class="fas fa-user-alt"></i>Sobre mi</a>
+              <a href="#services"><i class="fas fa-briefcase"></i>Servicios</a>
+              <a href="#experience"><i class="fas fa-graduation-cap"></i>Experiencia</a>
+              <a href="#works"><i class="fas fa-layer-group"></i>Mis proyectos</a>
+              <a href="#contactme"><i class="fas fa-comments"></i>Contactame</a>
+            </div>
+          </label>
+        </nav>
+      </section>
+      <section class="banner-container" id="home">
+        <div class="background-image"></div>
+        <div class="banner-container__main">
+          <img class="banner-container__main__avatar" src="./imagenes/hombre.svg" alt="Avatar">
+          <h2 class="banner-container__main__title">Brian Tomas Flores</h2>
+          <h3>Bienvenidos a mi Web!</h3>
+          <span>Programador Web Jr. / Trainee </span>
+          <div class="banner-container__main__social-media">
+            <a class="banner-container__main__social-media__red" href="https://www.linkedin.com/in/brian-tomas-flores-5348771a3/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a class="banner-container__main__social-media__red" href="https://twitter.com/Flores_Brian_T" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a class="banner-container__main__social-media__red" href="https://instagram.com/brimasflores" target="_blank"><i class="fab fa-instagram"></i></a>
+          </div>
+          <button class="banner-container__main__button"><a href="#contactme">Contactame</a></button>
+        </div>
+        <a class="banner-container__scroll" href="#skils">
+          <span>Scroll Down</span>
+          <img src="./imagenes/scroll.png" alt="" >
+        </a>
+      </section>
+      <section class="skils-container container" id="skils">
+        <h3 class="title-content">Sobre mi</h3>
+        <div class="skils-container__main">
+          <img class="skils-container__main__avatar" src="./imagenes/hombre.svg" alt="Avatar">
+          <div class="skils-container__main__card">
+            <div class="skils-container__main__card__description">
+              <span>Hola! Soy un estudiante de programación web Full Stack. Apasionado de la tecnologia y de la creacion de contenido audiovisual.</span>
+              <button><a href="cvBrianFlores.pdf" class="btn" title="CV" download="CV Brian Tomas Flores">Descargar CV</a></button>
+            </div>
+            <div class="skils-container__main__card__progress">
+              <div class="skils-container__main__card__progress__content">
+                <h3>Programación Full Stack</h3>
+                <div class="skils-container__main__card__progress__content__bar">
+                  <div class="skils-container__main__card__progress__content__bar__incomplete"></div>
+                </div>
+              </div>
+              <div class="skils-container__main__card__progress__content">
+                <h3>Creación de contenidos audiovisuales</h3>
+                <div class="skils-container__main__card__progress__content__bar">
+                  <div class="skils-container__main__card__progress__content__bar__incomplete"></div>
+                </div>
+              </div>
+              <div class="skils-container__main__card__progress__content">
+                <h3>UX / UI</h3>
+                <div class="skils-container__main__card__progress__content__bar">
+                  <div class="skils-container__main__card__progress__content__bar__incomplete"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="services-container container" id="services">
+        <h3 class="title-content">Servicios</h3>
+        <div class="services-container__topics">
+          <div class="services-container__topics__card">
+            <img src="./imagenes/codigo.svg" alt="">
+            <h3>Lenguajes de Programacion</h3>
+            <p>HTML, CSS, Bootstrap, PHP, Laravel, Javascript.</p>
+          </div>
+          <div class="services-container__topics__card">
+            <img src="./imagenes/bases-de-datos.svg" alt="">
+            <h3>Base de Datos</h3>
+            <p>MySQL/MariaDB.</p>
+          </div>
+          <div class="services-container__topics__card">
+            <img src="./imagenes/computadora.svg" alt="">
+            <h3>Software</h3>
+            <p>Visual Studio Code, Sublime Text, Notepad++, Camtasia Studio 8, Filmora 9, Photoshop</p>
+          </div>
+        </div>
+      </section>
+      <section class="experience-container container" id="experience">
+        <h3 class="title-content">Experiencia</h3>
+        <div class="experience-container__topics">
+          <div class="experience-container__topics__card">
+            <div class="experience-container__topics__card__data">
+              <i class="fas fa-graduation-cap"></i>
+              <span class="experience-container__topics__card__data__time">2020 - 90 hs.</span>
+              <span class="experience-container__topics__card__data__title">DePC Suite</span>
+              <p class="experience-container__topics__card__data__description">Curso programación web Full Stack.</p>
+            </div>
+            <div class="experience-container__topics__card__data">
+              <i class="fas fa-graduation-cap"></i>
+              <span class="experience-container__topics__card__data__time">2020 - Cursando</span>
+              <span class="experience-container__topics__card__data__title">Educación IT</span>
+              <p class="experience-container__topics__card__data__description">Curso programación web Full Stack.</p>
+            </div>
+            <div class="experience-container__topics__card__data">
+              <i class="fas fa-graduation-cap"></i>
+              <span class="experience-container__topics__card__data__time">2020 - Cursando</span>
+              <span class="experience-container__topics__card__data__title">Fundación Pescar</span>
+              <p class="experience-container__topics__card__data__description">Curso de formación profesional.</p>
+            </div>
+          </div>
+          <div class="experience-container__topics__card">
+            <div class="experience-container__topics__card__data">
+              <i class="fas fa-briefcase"></i>
+              <span class="experience-container__topics__card__data__time">2020 - Cursando</span>
+              <span class="experience-container__topics__card__data__title">Rocket Code</span>
+              <p class="experience-container__topics__card__data__description">Curso de HTML5 y CSS3.</p>
+            </div>
+            <div class="experience-container__topics__card__data">
+              <i class="fas fa-briefcase"></i>
+              <span class="experience-container__topics__card__data__time">2020 - Cursando</span>
+              <span class="experience-container__topics__card__data__title">Udemy</span>
+              <p class="experience-container__topics__card__data__description">Curso de aplicaciones web dinamicas.</p>
+            </div>
+            <div class="experience-container__topics__card__data">
+              <i class="fas fa-briefcase"></i>
+              <!--<span class="experience-container__topics__card__data__time">2015 - 2017</span>
+              <span class="experience-container__topics__card__data__title">Academy</span>
+              <p class="experience-container__topics__card__data__description">Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>-->
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="works-container container" id="works">
+        <h3 class="title-content">Mis proyectos</h3>
+        <div class="works-container__topics">
+          <figure class="works-container__topics__card">
+            <img src="./imagenes/abmventas.png" alt="">
+            <div class="works-container__topics__card__mask">
+              <span>Registro de Clientes</span>
+              <br>
+              <button><a href="">Ver oline</a></button>
+            </div>
+          </figure>
+          <figure class="works-container__topics__card">
+            <img src="./imagenes/koyaweb.PNG" alt="">
+            <div class="works-container__topics__card__mask">
+              <span>Koya Web Blog</span>
+              <br>
+              <button><a href="">Ver oline</a></button>
+            </div>
+          </figure>
+          <!--<figure class="works-container__topics__card">
+            <img src="./imagenes/trabajo-5.svg" alt="">
+            <div class="works-container__topics__card__mask">
+              <span>Youtube</span>
+            </div>
+          </figure>
+          <figure class="works-container__topics__card">
+            <img src="./imagenes/trabajo-4.svg" alt="">
+            <div class="works-container__topics__card__mask">
+              <span>Falabella</span>
+            </div>
+          </figure>
+          <figure class="works-container__topics__card">
+            <img src="./imagenes/trabajo-3.svg" alt="">
+            <div class="works-container__topics__card__mask">
+              <span>Roadmap</span>
+            </div>
+          </figure>
+          <figure class="works-container__topics__card">
+            <img src="./imagenes/trabajo-2.svg" alt="">
+            <div class="works-container__topics__card__mask">
+              <span>Happy Computer</span>
+            </div>
+          </figure>-->
+        </div>
+      </section>
+      <section class="contactme-container container" id="contactme">
+        <h3 class="title-content">Contactame</h3>
+        <div class="contactme-container__main">
+          <div class="contactme-container__main__text">
+            <span class="contactme-container__main__text__title">Trabajemos juntos!</span>
+            <p>Puedes enviarme un mensaje! Te responderé a la brevedad 👋🏼.</p>
+          </div>
+          <form class="contactme-container__main__form">
+            <div class="contactme-container__main__form__name">
+              <label for="name"><input id="name" type="text" placeholder="Nombre"></label>
+              <label for="email"><input id="email" type="email" placeholder="Email"></label>
+            </div>
+            <label class="contactme-container__main__form__comment" for="comment"><textarea id="comment" placeholder="Tu mensaje"></textarea></label>
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+      </section>
+      <footer>
+        <span>Brian Tomás Flores</span>
+        <div>
+          <a class="banner-container__main__social-media__red" href="https://www.linkedin.com/in/brian-tomas-flores-5348771a3/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          <a class="banner-container__main__social-media__red" href="https://twitter.com/Flores_Brian_T" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a class="banner-container__main__social-media__red" href="https://instagram.com/brimasflores" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+  <script src="https://kit.fontawesome.com/7aa36192fa.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
